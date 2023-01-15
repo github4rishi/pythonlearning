@@ -1,4 +1,8 @@
 
 # This program prints hello world to the screen
-print('Hello, world!')
-print('Hello, python')
+import sys
+
+from termcolor import colored, cprint
+
+text = colored("Hello, world!", "red")
+print(text)
