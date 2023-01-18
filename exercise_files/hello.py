@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 # This program prints hello world to the screen
 import sys
 
