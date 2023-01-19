@@ -9,5 +9,20 @@ print(my_string)
 
 
 # assign to a var
-my_str=my_string.lower()
-print(my_str)
+mystrLower=my_string.lower() # lower() function to change to lowercase
+mystrUpper=my_string.upper() # upper() function to change to uppercase
+
+print(f"mystr lowercase {mystrLower}") 
+print(f"mystr uppwercase {mystrUpper}")
+
+# swapcase upper change to lower and vice versa
+print(my_string.swapcase())
+
+# change string to title format, that is each word in starting should be capital
+print(my_string.title())
+
+# capitlize() - first char would be changed to uppercase
+print(my_string.capitalize())
+
+# casefold() - instead of lower() we can use this funtion as well. 
+
