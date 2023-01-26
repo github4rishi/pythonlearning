@@ -6,6 +6,6 @@ import os
 term_width=os.get_terminal_size().columns
 
 string=input("Enter the string: ")
-print(string.center(term_width))
-print(string.ljust(term_width))
-print(string.rjust(term_width))
+print(string.center(term_width).title())
+print(string.ljust(term_width).title())
+print(string.rjust(term_width).title())
