@@ -17,7 +17,7 @@ print(myNewTuple[0])
 print(myNewTuple[2])
 print(myNewTuple[2][1])
 
-#myTuple[0]=22 # Tuples are immutable, that means you can modify the value of tuple
+#myTuple[0]=22 # Tuples are immutable, that means you cannot modify the value of tuple
 #print(myTuple)
 
 myTuple_new=(3,3,4,5,6,7,7,8,10)
